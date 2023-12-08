@@ -13,7 +13,7 @@ vertexai.init(project=PROJECT_ID, location=LOCATION)
 def hello_world():
     """Example Hello World route."""
     name = os.environ.get("NAME", "World")
-    return f"Hello Revised {name}!"
+    return f"Hello Second Revised {name}!"
 
 # Define the route for the API endpoint
 @app.route('/api', methods=['GET'])
