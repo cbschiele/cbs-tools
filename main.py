@@ -8,6 +8,8 @@ PROJECT_ID = os.environ.get('GCP_PROJECT')
 LOCATION = os.environ.get('GCP_REGION')
 vertexai.init(project=PROJECT_ID, location=LOCATION)
 
+api_root = "/api/v1"
+
 # Root Simple Fallback
 @app.route("/")
 def hello_world():
@@ -15,9 +17,17 @@ def hello_world():
     name = os.environ.get("NAME", "World")
     return f"Hello Second Revised {name}!"
 
+@app.route("/api")
+def index():
+    return redirect("/api/v1")
+
+@app.route(api_root)
+def home():
+    return "API Root - This will eventually redirect to a swagger UI maybe..."
+
 # Define the route for the API endpoint
-@app.route('/api', methods=['GET'])
-def api():
+@app.route(api_root + '/simple-call', methods=['GET'])
+def simple_call():
     # Get the query parameters from the request
     name = request.args.get('name')
     age = request.args.get('age')
