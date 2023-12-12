@@ -1,6 +1,6 @@
 import os
 import vertexai
-from flask import Flask, request, jsonify
+from flask import Flask, request, redirect, jsonify
 from vertexai.language_models import TextGenerationModel
 
 app = Flask(__name__)
@@ -16,8 +16,8 @@ def app_root():
     return f"Root Index - The app didn't die, at least. This project ({PROJECT_ID}) is running in GCP Region: {LOCATION}!"
 
 @app.route("/api")
-def index():
-    return redirect("/api/v1")
+def api_root_version_redirect():
+    return redirect(api_root)
 
 @app.route(api_root)
 def home():
