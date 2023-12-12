@@ -36,7 +36,7 @@ def simple_call():
     response = generation_model.predict(prompt=prompt)
 
     #Return the results
-    return f"{name}, Age {age} asked, \"{prompt}\". PaLM Responded: " + response.text
+    return f"{name}, Age {age} asked, \"{prompt}\". \n\nPaLM Responded:\n\n" + response.text
 
 
 if __name__ == "__main__":
