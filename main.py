@@ -10,12 +10,10 @@ vertexai.init(project=PROJECT_ID, location=LOCATION)
 
 api_root = "/api/v1"
 
-# Root Simple Fallback
+# Root Routes
 @app.route("/")
-def hello_world():
-    """Example Hello World route."""
-    name = os.environ.get("NAME", "World")
-    return f"Hello Second Revised {name}!"
+def app_root():
+    return f"Root Index - The app didn't die, at least. This project ({PROJECT_ID}) is running in GCP Region: {LOCATION}!"
 
 @app.route("/api")
 def index():
@@ -25,7 +23,7 @@ def index():
 def home():
     return "API Root - This will eventually redirect to a swagger UI maybe..."
 
-# Define the route for the API endpoint
+# Simple Call
 @app.route(api_root + '/simple-call', methods=['GET'])
 def simple_call():
     # Get the query parameters from the request
