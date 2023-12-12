@@ -30,17 +30,13 @@ def simple_call():
     name = request.args.get('name')
     age = request.args.get('age')
 
-    # Create a dictionary with the query parameters
-    data = {'name': name, 'age': age}
-
     #now let's try the vertex api:
     generation_model = TextGenerationModel.from_pretrained("text-bison@001")
     prompt = "What is a large language model?"
     response = generation_model.predict(prompt=prompt)
 
-    # Return the dictionary as a JSON response
-    #return jsonify(data)
-    return response.text
+    #Return the results
+    return f"{name}, Age {age} asked, \"{prompt}\". PaLM Responded: " + response.text
 
 
 if __name__ == "__main__":
