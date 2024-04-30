@@ -1,0 +1,1157 @@
+[
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "ping-fed-db-v2-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/PING-DB-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/ping-fed-db-v2-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "ping-fed-db-v2-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "PING-DB-v2-D-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the Ping Federate application"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "ping-fed-db-v2-postgresql-qa.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/PING-DB-v2-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/ping-fed-db-v2-postgresql-qa",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "ping-fed-db-v2-postgresql-qa",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "PING-DB-v2-Q-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the Ping Federate application"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "ping-fed-db-v2-postgresql-prod.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/PING-DB-v2-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/ping-fed-db-v2-postgresql-prod",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "ping-fed-db-v2-postgresql-prod",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "PING-DB-v2-P-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the Ping Federate application"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "mpanda-map2wpo-v1-postgresql-qa.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MAP-to-WPO-Integration-v1-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/mpanda-map2wpo-v1-postgresql-qa",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLS1_2",
+    "name": "mpanda-map2wpo-v1-postgresql-qa",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "MAP-to-WPO-Integration-v1-Q-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the Mpanda Map to WPO application"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "mpanda-map2wpo-v1-postgresql-prod.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MAP-to-WPO-Integration-v1-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/mpanda-map2wpo-v1-postgresql-prod",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLS1_2",
+    "name": "mpanda-map2wpo-v1-postgresql-prod",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "MAP-to-WPO-Integration-v1-P-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the Mpanda Map to WPO application"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "mlp-database-v1-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MLP-Database-Server-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/mlp-database-v1-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "mlp-database-v1-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "MLP-Database-Server-v1-D-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 46080
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the MLP application for the Planning Systems Team."
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "message-app-v1-postgresql-qa.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Message-App-Database-v1-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/message-app-v1-postgresql-qa",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "message-app-v1-postgresql-qa",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Message-App-Database-v1-Q-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is used for Message related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "mlp-database-v1-postgresql-qa.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MLP-Database-Server-v1-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/mlp-database-v1-postgresql-qa",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "mlp-database-v1-postgresql-qa",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "MLP-Database-Server-v1-Q-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 40960
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the MLP application for the Planning Systems Team."
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "mpanda-map2wpo-v1-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MAP-to-WPO-Integration-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/mpanda-map2wpo-v1-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLS1_2",
+    "name": "mpanda-map2wpo-v1-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "MAP-to-WPO-Integration-v1-D-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the Mpanda Map to WPO application"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "mlp-database-v1-postgresql-prod.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MLP-Database-Server-v1-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/mlp-database-v1-postgresql-prod",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "mlp-database-v1-postgresql-prod",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "MLP-Database-Server-v1-P-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 51200
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the MLP application for the Planning Systems Team."
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "message-app-v1-postgresql-prod.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Message-App-Database-v1-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/message-app-v1-postgresql-prod",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "message-app-v1-postgresql-prod",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Message-App-Database-v1-P-EUS2-RG",
+    "sku": {
+      "capacity": 8,
+      "family": "Gen5",
+      "name": "MO_Gen5_8",
+      "size": null,
+      "tier": "MemoryOptimized"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 81920
+    },
+    "tags": {
+      "Description": "This DB is used for Message related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "devopspoc-app-v3-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/DevOps-Postgres-POC-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/devopspoc-app-v3-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "devopspoc-app-v3-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "DevOps-Postgres-POC-v2-D-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is used for DevOps Postgres POC",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "metric-app-v1-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Metric-App-Database-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/metric-app-v1-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "metric-app-v1-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Metric-App-Database-v1-D-EUS2-RG",
+    "sku": {
+      "capacity": 8,
+      "family": "Gen5",
+      "name": "MO_Gen5_8",
+      "size": null,
+      "tier": "MemoryOptimized"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 40960
+    },
+    "tags": {
+      "Description": "This DB is used for Metric related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "metric-app-v1-postgresql-qa.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Metric-App-Database-v1-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/metric-app-v1-postgresql-qa",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "metric-app-v1-postgresql-qa",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Metric-App-Database-v1-Q-EUS2-RG",
+    "sku": {
+      "capacity": 8,
+      "family": "Gen5",
+      "name": "MO_Gen5_8",
+      "size": null,
+      "tier": "MemoryOptimized"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 40960
+    },
+    "tags": {
+      "Description": "This DB is used for Metric related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "metric-app-v1-postgresql-prod.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Metric-App-Database-v1-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/metric-app-v1-postgresql-prod",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "metric-app-v1-postgresql-prod",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Metric-App-Database-v1-P-EUS2-RG",
+    "sku": {
+      "capacity": 8,
+      "family": "Gen5",
+      "name": "MO_Gen5_8",
+      "size": null,
+      "tier": "MemoryOptimized"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 40960
+    },
+    "tags": {
+      "Description": "This DB is used for Metric related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "ipo-app-v1-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Supply-Chain-IPO-App-Database-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/ipo-app-v1-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "ipo-app-v1-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Supply-Chain-IPO-App-Database-v1-D-EUS2-RG",
+    "sku": {
+      "capacity": 4,
+      "family": "Gen5",
+      "name": "MO_Gen5_4",
+      "size": null,
+      "tier": "MemoryOptimized"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 266240
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the MLP application for the Planning Systems Team."
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "szop-app-v1-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Supply-Chain-Size-Optimization-APP-Database-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/szop-app-v1-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "szop-app-v1-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Supply-Chain-Size-Optimization-APP-Database-v1-D-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 10240
+    },
+    "tags": {
+      "Description": "This DB is the main storage for the SZOP middlware application for the Supply Chain Team."
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "szop-app-v1-postgresql-qa.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Supply-Chain-Size-Optimization-APP-Database-v1-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/szop-app-v1-postgresql-qa",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "szop-app-v1-postgresql-qa",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Supply-Chain-Size-Optimization-APP-Database-v1-Q-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 10240
+    },
+    "tags": {
+      "Description": "This DB is the main storage for the SZOP middlware application for the Supply Chain Team."
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "ipo-app-v1-postgresql-qa.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Supply-Chain-IPO-App-Database-v1-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/ipo-app-v1-postgresql-qa",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "ipo-app-v1-postgresql-qa",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Supply-Chain-IPO-App-Database-v1-Q-EUS2-RG",
+    "sku": {
+      "capacity": 4,
+      "family": "Gen5",
+      "name": "MO_Gen5_4",
+      "size": null,
+      "tier": "MemoryOptimized"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 266240
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the MLP application for the Planning Systems Team."
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "ipo-app-v1-postgresql-prod.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Supply-Chain-IPO-App-Database-v1-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/ipo-app-v1-postgresql-prod",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "ipo-app-v1-postgresql-prod",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Supply-Chain-IPO-App-Database-v1-P-EUS2-RG",
+    "sku": {
+      "capacity": 4,
+      "family": "Gen5",
+      "name": "MO_Gen5_4",
+      "size": null,
+      "tier": "MemoryOptimized"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 266240
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the MLP application for the Planning Systems Team."
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "order-app-v1-postgresql-qa.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Order-App-Database-v1-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/order-app-v1-postgresql-qa",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "order-app-v1-postgresql-qa",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Order-App-Database-v1-Q-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 20480
+    },
+    "tags": {
+      "Description": "This DB is used for Order related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "sample-tracker-app-v1-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Sample-Tracker-App-Database-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/sample-tracker-app-v1-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "sample-tracker-app-v1-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Sample-Tracker-App-Database-v1-D-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is used for Sample Tracker related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "order-app-v1-postgresql-prod.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Order-App-Database-v1-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/order-app-v1-postgresql-prod",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "order-app-v1-postgresql-prod",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Order-App-Database-v1-P-EUS2-RG",
+    "sku": {
+      "capacity": 16,
+      "family": "Gen5",
+      "name": "MO_Gen5_16",
+      "size": null,
+      "tier": "MemoryOptimized"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 163840
+    },
+    "tags": {
+      "Description": "This DB is used for Order related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "order-app-v1-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Order-App-Database-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/order-app-v1-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "order-app-v1-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Order-App-Database-v1-D-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 20480
+    },
+    "tags": {
+      "Description": "This DB is used for Order related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "message-app-v1-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Message-App-Database-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/message-app-v1-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "message-app-v1-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Message-App-Database-v1-D-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is used for Message related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "payment-app-v1-postgresql-qa.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Payment-App-Database-v1-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/payment-app-v1-postgresql-qa",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "payment-app-v1-postgresql-qa",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Payment-App-Database-v1-Q-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is used for Payment related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "payment-app-v1-postgresql-prod.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Payment-App-Database-v1-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/payment-app-v1-postgresql-prod",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "payment-app-v1-postgresql-prod",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Payment-App-Database-v1-P-EUS2-RG",
+    "sku": {
+      "capacity": 4,
+      "family": "Gen5",
+      "name": "MO_Gen5_4",
+      "size": null,
+      "tier": "MemoryOptimized"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 10240
+    },
+    "tags": {
+      "Description": "This DB is used for Payment related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "szop-app-v1-postgresql-prod.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Supply-Chain-Size-Optimization-APP-Database-v1-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/szop-app-v1-postgresql-prod",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "szop-app-v1-postgresql-prod",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Supply-Chain-Size-Optimization-APP-Database-v1-P-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 10240
+    },
+    "tags": {
+      "Description": "This DB is the main storage for the SZOP middlware application for the Supply Chain Team."
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "payment-app-v1-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Payment-App-Database-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/payment-app-v1-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLSEnforcementDisabled",
+    "name": "payment-app-v1-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "Digital-Payment-App-Database-v1-D-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 5120
+    },
+    "tags": {
+      "Description": "This DB is used for Payment related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  },
+  {
+    "administratorLogin": "login",
+    "byokEnforcement": "Disabled",
+    "earliestRestoreDate": "2024-04-22T19:18:51.953051+00:00",
+    "fullyQualifiedDomainName": "dba-sandbox-v1-postgresql-dev.postgres.database.azure.com",
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/DBA-Sandbox-Databases-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/servers/dba-sandbox-v1-postgresql-dev",
+    "identity": null,
+    "infrastructureEncryption": "Disabled",
+    "location": "eastus2",
+    "masterServerId": "",
+    "minimalTlsVersion": "TLS1_2",
+    "name": "dba-sandbox-v1-postgresql-dev",
+    "privateEndpointConnections": [],
+    "publicNetworkAccess": "Enabled",
+    "replicaCapacity": null,
+    "replicationRole": "",
+    "resourceGroup": "DBA-Sandbox-Databases-v1-D-EUS2-RG",
+    "sku": {
+      "capacity": 2,
+      "family": "Gen5",
+      "name": "GP_Gen5_2",
+      "size": null,
+      "tier": "GeneralPurpose"
+    },
+    "sslEnforcement": "Enabled",
+    "storageProfile": {
+      "backupRetentionDays": 7,
+      "geoRedundantBackup": "Enabled",
+      "storageAutogrow": "Enabled",
+      "storageMb": 10240
+    },
+    "tags": {
+      "Description": "This DB is used for testing",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/servers",
+    "userVisibleState": "Ready",
+    "version": "11"
+  }
+]

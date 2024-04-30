@@ -1,0 +1,2259 @@
+[
+  {
+    "administratorLogin": "ns387362",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T17:40:05.128009+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "dba-manual-build.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/DBA-Sandbox-Databases-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/dba-manual-build",
+    "identity": null,
+    "location": "East US",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "4",
+    "name": "dba-manual-build",
+    "network": {
+      "delegatedSubnetResourceId": null,
+      "privateDnsZoneArmResourceId": null,
+      "publicNetworkAccess": "Enabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "DBA-Sandbox-Databases-v1-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_B2s",
+      "tier": "Burstable"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": null,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": null,
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2023-06-14T15:04:20.355727+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "Just a test build using the portal for the DBA team."
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "15"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-24T18:48:58.649784+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "dba-sandbox-v2-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/DBA-Sandbox-Databases-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/dba-sandbox-v2-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "6",
+    "name": "dba-sandbox-v2-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DBA-SANDBOX-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/DBA-Sandbox-Databases-v2-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/dba-sandbox-v2-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "DBA-Sandbox-Databases-v2-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_B4ms",
+      "tier": "Burstable"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Enabled",
+      "iops": 240,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P6",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-24T18:43:06.238948+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is proof of concept test for postgres 16"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "15"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "3",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-22T19:46:44.348250+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "config-app-v2-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Config-App-Database-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/config-app-v2-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "config-app-v2-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-CONFIG-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Config-App-Database-v2-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/config-app-v2-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Config-App-Database-v2-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_D4ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-02T19:33:44.890013+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Config related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "2",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T15:34:25.860123+00:00",
+      "geoRedundantBackup": "Enabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "config-app-v2-postgresql-prod.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Config-App-Database-v2-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/config-app-v2-postgresql-prod",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "config-app-v2-postgresql-prod",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-CONFIG-POSTGRES-P",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Config-App-Database-v2-P-EUS2-RG/providers/Microsoft.Network/privateDnsZones/config-app-v2-postgresql-prod.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Config-App-Database-v2-P-EUS2-RG",
+    "sku": {
+      "name": "Standard_E16ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-16T15:26:48.552265+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Config related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "2",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T12:47:06.204489+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "config-app-v2-postgresql-qa.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Config-App-Database-v2-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/config-app-v2-postgresql-qa",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "config-app-v2-postgresql-qa",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-CONFIG-POSTGRES-Q",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Config-App-Database-v2-Q-EUS2-RG/providers/Microsoft.Network/privateDnsZones/config-app-v2-postgresql-qa.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Config-App-Database-v2-Q-EUS2-RG",
+    "sku": {
+      "name": "Standard_D4ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-04T12:34:25.236459+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Config related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "2",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T15:30:44.867054+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "content-app-v2-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Content-App-Database-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/content-app-v2-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "4",
+    "name": "content-app-v2-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-CONTENT-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Content-App-Database-v2-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/content-app-v2-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Content-App-Database-v2-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_E8ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2023-12-08T16:55:11.471516+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Content related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "15"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "2",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T17:06:21.866620+00:00",
+      "geoRedundantBackup": "Enabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "content-app-v2-postgresql-prod.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Content-App-Database-v2-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/content-app-v2-postgresql-prod",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "4",
+    "name": "content-app-v2-postgresql-prod",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-CONTENT-POSTGRES-P",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Content-App-Database-v2-P-EUS2-RG/providers/Microsoft.Network/privateDnsZones/content-app-v2-postgresql-prod.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Content-App-Database-v2-P-EUS2-RG",
+    "sku": {
+      "name": "Standard_E16ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-01-09T16:59:04.892846+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Content related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "15"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "2",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T19:06:19.190786+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "content-app-v2-postgresql-qa.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Content-App-Database-v2-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/content-app-v2-postgresql-qa",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "4",
+    "name": "content-app-v2-postgresql-qa",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-CONTENT-POSTGRES-Q",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Content-App-Database-v2-Q-EUS2-RG/providers/Microsoft.Network/privateDnsZones/content-app-v2-postgresql-qa.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Content-App-Database-v2-Q-EUS2-RG",
+    "sku": {
+      "name": "Standard_E8ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2023-12-06T17:42:53.074001+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Content related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "15"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "2",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T19:02:08.837467+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "item-app-v2-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Item-App-Database-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/item-app-v2-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "1",
+    "name": "item-app-v2-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-ITEM-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Item-App-Database-v2-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/item-app-v2-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Item-App-Database-v2-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-03-12T15:03:13.713936+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Item related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T09:11:55.342460+00:00",
+      "geoRedundantBackup": "Enabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "item-app-v2-postgresql-prod.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Item-App-Database-v2-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/item-app-v2-postgresql-prod",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "1",
+    "name": "item-app-v2-postgresql-prod",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-ITEM-POSTGRES-P",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Item-App-Database-v2-P-EUS2-RG/providers/Microsoft.Network/privateDnsZones/item-app-v2-postgresql-prod.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Item-App-Database-v2-P-EUS2-RG",
+    "sku": {
+      "name": "Standard_E16ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-03-20T08:53:48.647698+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Item related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T15:50:24.023513+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "item-app-v2-postgresql-qa.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Item-App-Database-v2-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/item-app-v2-postgresql-qa",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "1",
+    "name": "item-app-v2-postgresql-qa",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-ITEM-POSTGRES-Q",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Item-App-Database-v2-Q-EUS2-RG/providers/Microsoft.Network/privateDnsZones/item-app-v2-postgresql-qa.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Item-App-Database-v2-Q-EUS2-RG",
+    "sku": {
+      "name": "Standard_D4ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-03-15T15:30:38.584402+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Item related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T17:20:23.843756+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "location-app-v2-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Location-App-Database-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/location-app-v2-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "location-app-v2-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-LOCATION-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Location-App-Database-v2-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/location-app-v2-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Location-App-Database-v2-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_D4ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-03T17:08:25.905592+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Location related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T12:21:27.117581+00:00",
+      "geoRedundantBackup": "Enabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "location-app-v2-postgresql-prod.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Location-App-Database-v2-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/location-app-v2-postgresql-prod",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "location-app-v2-postgresql-prod",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-LOCATION-POSTGRES-P",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Location-App-Database-v2-P-EUS2-RG/providers/Microsoft.Network/privateDnsZones/location-app-v2-postgresql-prod.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Location-App-Database-v2-P-EUS2-RG",
+    "sku": {
+      "name": "Standard_E16ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-11T12:13:54.581098+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Location related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T13:47:04.885314+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "location-app-v2-postgresql-qa.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Location-App-Database-v2-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/location-app-v2-postgresql-qa",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "location-app-v2-postgresql-qa",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-LOCATION-POSTGRES-Q",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Location-App-Database-v2-Q-EUS2-RG/providers/Microsoft.Network/privateDnsZones/location-app-v2-postgresql-qa.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Location-App-Database-v2-Q-EUS2-RG",
+    "sku": {
+      "name": "Standard_D4ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-10T13:36:21.151246+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Location related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "3",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T15:05:30.649917+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "message-app-v2-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Message-App-Database-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/message-app-v2-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "message-app-v2-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-PAYMENT-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Message-App-Database-v2-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/message-app-v2-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Message-App-Database-v2-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-22T15:00:26.708810+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Message related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-22T20:15:05.604530+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "metric-app-v2-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Metric-App-Database-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/metric-app-v2-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "metric-app-v2-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-METRIC-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Metric-App-Database-v2-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/metric-app-v2-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Metric-App-Database-v2-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-18T19:58:56.605911+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Metric related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-22T19:57:35.535137+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "order-app-v2-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Order-App-Database-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/order-app-v2-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "order-app-v2-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-METRIC-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Order-App-Database-v2-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/order-app-v2-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Order-App-Database-v2-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-19T19:51:09.154305+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Order related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T17:59:35.515200+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "payment-app-v2-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Payment-App-Database-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/payment-app-v2-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "payment-app-v2-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-PAYMENT-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Payment-App-Database-v2-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/payment-app-v2-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Payment-App-Database-v2-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_D2ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-18T17:43:02.173351+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Payment related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T18:26:18.541784+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "profile-app-v1-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Profile-App-Database-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/profile-app-v1-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "11",
+    "name": "profile-app-v1-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-PROFILE-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Profile-App-Database-v1-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/profile-app-v1-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Profile-App-Database-v1-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_E8ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 240,
+      "storageSizeGb": 64,
+      "throughput": null,
+      "tier": "P6",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-09T18:22:01.194411+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Profile related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "14"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "2",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T07:25:42.828034+00:00",
+      "geoRedundantBackup": "Enabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "profile-app-v1-postgresql-prod.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Profile-App-Database-v1-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/profile-app-v1-postgresql-prod",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "9",
+    "name": "profile-app-v1-postgresql-prod",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-PROFILE-POSTGRES-P",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Profile-App-Database-v1-P-EUS2-RG/providers/Microsoft.Network/privateDnsZones/profile-app-v1-postgresql-prod.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Profile-App-Database-v1-P-EUS2-RG",
+    "sku": {
+      "name": "Standard_E16ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 2300,
+      "storageSizeGb": 512,
+      "throughput": null,
+      "tier": "P20",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2023-10-04T16:47:07.487408+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Profile related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "14"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "2",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-22T19:49:31.204708+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "profile-app-v1-postgresql-qa.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Profile-App-Database-v1-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/profile-app-v1-postgresql-qa",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "9",
+    "name": "profile-app-v1-postgresql-qa",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-DIGITAL-PROFILE-POSTGRES-Q",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Digital-Profile-App-Database-v1-Q-EUS2-RG/providers/Microsoft.Network/privateDnsZones/profile-app-v1-postgresql-qa.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Digital-Profile-App-Database-v1-Q-EUS2-RG",
+    "sku": {
+      "name": "Standard_E8ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 500,
+      "storageSizeGb": 128,
+      "throughput": null,
+      "tier": "P10",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2023-09-21T14:12:35.571512+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Profile related services in Digital",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "14"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T17:57:41.710348+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "mpanda-map2wpo-v2-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MAP-to-WPO-Integration-v2-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/mpanda-map2wpo-v2-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "1",
+    "name": "mpanda-map2wpo-v2-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-SC-MAP2WPO-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MAP-to-WPO-Integration-v2-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/mpanda-map2wpo-v2-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "MAP-to-WPO-Integration-v2-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_B4ms",
+      "tier": "Burstable"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-03-05T17:50:57.732528+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the Mpanda Map to WPO application"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "2",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-23T14:13:11.246399+00:00",
+      "geoRedundantBackup": "Enabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "mpanda-map2wpo-v2-postgresql-prod.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MAP-to-WPO-Integration-v2-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/mpanda-map2wpo-v2-postgresql-prod",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "mpanda-map2wpo-v2-postgresql-prod",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-SC-MAP2WPO-POSTGRES-P",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MAP-to-WPO-Integration-v2-P-EUS2-RG/providers/Microsoft.Network/privateDnsZones/mpanda-map2wpo-v2-postgresql-prod.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "MAP-to-WPO-Integration-v2-P-EUS2-RG",
+    "sku": {
+      "name": "Standard_E16ds_v4",
+      "tier": "MemoryOptimized"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-19T14:06:52.846265+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the Mpanda Map to WPO application"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-22T21:06:22.739509+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "mpanda-map2wpo-v2-postgresql-qa.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MAP-to-WPO-Integration-v2-Q-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/mpanda-map2wpo-v2-postgresql-qa",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "2",
+    "name": "mpanda-map2wpo-v2-postgresql-qa",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-SC-MAP2WPO-POSTGRES-Q",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/MAP-to-WPO-Integration-v2-Q-EUS2-RG/providers/Microsoft.Network/privateDnsZones/mpanda-map2wpo-v2-postgresql-qa.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "MAP-to-WPO-Integration-v2-Q-EUS2-RG",
+    "sku": {
+      "name": "Standard_D4ds_v4",
+      "tier": "GeneralPurpose"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-01T20:59:23.355108+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is desinged to be the backend of the Mpanda Map to WPO application"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "16"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "1",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-24T16:07:36.545427+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "network-nautobot-v1-postgresql-dev.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Networks-Nautobot-Postgres-v1-D-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/network-nautobot-v1-postgresql-dev",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "11",
+    "name": "network-nautobot-v1-postgresql-dev",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-PRE-POSTGRES-D",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Networks-Nautobot-Postgres-v1-D-EUS2-RG/providers/Microsoft.Network/privateDnsZones/network-nautobot-v1-postgresql-dev.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Networks-Nautobot-Postgres-v1-D-EUS2-RG",
+    "sku": {
+      "name": "Standard_B1ms",
+      "tier": "Burstable"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": 120,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": "P4",
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2024-04-24T16:03:21.119539+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Network team owned Nautobot tool",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "14"
+  },
+  {
+    "administratorLogin": "login",
+    "administratorLoginPassword": null,
+    "authConfig": {
+      "activeDirectoryAuth": "Enabled",
+      "passwordAuth": "Enabled",
+      "tenantId": "aa619c40-37e3-46a0-a844-d1c6087e430b"
+    },
+    "availabilityZone": "2",
+    "backup": {
+      "backupRetentionDays": 7,
+      "earliestRestoreDate": "2024-04-22T21:26:58.078257+00:00",
+      "geoRedundantBackup": "Disabled"
+    },
+    "createMode": null,
+    "dataEncryption": {
+      "geoBackupEncryptionKeyStatus": null,
+      "geoBackupKeyUri": null,
+      "geoBackupUserAssignedIdentityId": null,
+      "primaryEncryptionKeyStatus": null,
+      "primaryKeyUri": null,
+      "primaryUserAssignedIdentityId": null,
+      "type": "SystemManaged"
+    },
+    "fullyQualifiedDomainName": "network-nautobot-v1-postgresql-prod.postgres.database.azure.com",
+    "highAvailability": {
+      "mode": "Disabled",
+      "standbyAvailabilityZone": null,
+      "state": "NotEnabled"
+    },
+    "id": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Networks-Nautobot-Postgres-v1-P-EUS2-RG/providers/Microsoft.DBforPostgreSQL/flexibleServers/network-nautobot-v1-postgresql-prod",
+    "identity": null,
+    "location": "East US 2",
+    "maintenanceWindow": {
+      "customWindow": "Disabled",
+      "dayOfWeek": 0,
+      "startHour": 0,
+      "startMinute": 0
+    },
+    "minorVersion": "9",
+    "name": "network-nautobot-v1-postgresql-prod",
+    "network": {
+      "delegatedSubnetResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/VLAN-P-EUS2-RG/providers/Microsoft.Network/virtualNetworks/AZUR-EUS2-VLAN01/subnets/AZUR-EUS2-PRE-POSTGRES-P",
+      "privateDnsZoneArmResourceId": "/subscriptions/c07f6868-496c-4337-9572-847fe7e05886/resourceGroups/Networks-Nautobot-Postgres-v1-P-EUS2-RG/providers/Microsoft.Network/privateDnsZones/network-nautobot-v1-postgresql-prod.dbiprivate.postgres.database.azure.com",
+      "publicNetworkAccess": "Disabled"
+    },
+    "pointInTimeUtc": null,
+    "privateEndpointConnections": [],
+    "replica": {
+      "capacity": 5,
+      "promoteMode": null,
+      "promoteOption": null,
+      "replicationState": null,
+      "role": "Primary"
+    },
+    "replicaCapacity": 5,
+    "replicationRole": "Primary",
+    "resourceGroup": "Networks-Nautobot-Postgres-v1-P-EUS2-RG",
+    "sku": {
+      "name": "Standard_B1ms",
+      "tier": "Burstable"
+    },
+    "sourceServerResourceId": null,
+    "state": "Ready",
+    "storage": {
+      "autoGrow": "Disabled",
+      "iops": null,
+      "storageSizeGb": 32,
+      "throughput": null,
+      "tier": null,
+      "type": ""
+    },
+    "systemData": {
+      "createdAt": "2023-05-08T14:32:21.995066+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {
+      "Description": "This DB is used for Network team owned Nautobot tool",
+      "prometheus-postgresql-monitoring": "true"
+    },
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "version": "14"
+  }
+]
